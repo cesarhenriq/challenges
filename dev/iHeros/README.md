@@ -4,12 +4,12 @@ Projeto desenvolvido com Node.js e banco de dados MongoDB
 
 ## Intruções de uso
 
-1 – Versão utilizada do Node v12.4.0
-2 – Versão utilizado do NPM v6.13.7
-3 – URL de conexão mongo mongodb://localhost:27017/zrp
-4 – Instalar todas as dependências executando o comando npm i na raiz do projeto pelo terminal/cmd
-5 – Apos instalar todas as dependências e preciso iniciar o servidor, através do terminal digite o comando na raiz do projeto npm run dev, para iniciar o servidor em modo de desenvolvimento, o servidor iniciara na porta 3000
-6 – Para gerar o buid da aplicação, no terminal execute o seguinte comando: npm run build e na raiz da aplicação será cria a pasta dist, para iniciar o servidor através da dist que foi gerada, execute o seguinte comando: npm start
+1. Versão utilizada do Node v12.4.0
+2. Versão utilizado do NPM v6.13.7
+3. URL de conexão mongo mongodb://localhost:27017/zrp
+4. Instalar todas as dependências executando o comando npm i na raiz do projeto pelo terminal/cmd
+5. Apos instalar todas as dependências e preciso iniciar o servidor, através do terminal digite o comando na raiz do projeto npm run dev, para iniciar o servidor em modo de desenvolvimento, o servidor iniciara na porta 3000
+6. Para gerar o buid da aplicação, no terminal execute o seguinte comando: npm run build e na raiz da aplicação será cria a pasta dist, para iniciar o servidor através da dist que foi gerada, execute o seguinte comando: npm start
 
 ### Iniciar as ocorrências
 
