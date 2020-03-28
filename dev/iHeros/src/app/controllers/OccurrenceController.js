@@ -19,7 +19,6 @@ export default {
   },
   show: async (req, res) => {
     try {
-      console.log(req.params.id)
       const occurrence = await OccurrenceModel.findById(req.params.id)
 
       if (!occurrence) {
