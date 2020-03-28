@@ -1,0 +1,43 @@
+{
+  "name": "teste-zrp-iheros",
+  "version": "1.0.0",
+  "description": "Teste para vaga fullstack na empresa ZRP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --detectOpenHandles --forceExit --verbose",
+    "build": "sucrase ./src -d ./dist --transforms imports",
+    "io": "sucrase-node ./src/services/occurrences.js",
+    "seeds-heroes": "sucrase-node ./src/database/seeds/heroesSeed.js"
+  },
+  "keywords": [],
+  "author": "Cesar Santos <cesar.henrique121@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "haversine": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.1",
+    "mongoose-paginate-v2": "^1.3.6",
+    "mongoose-unique-validator": "^2.0.3",
+    "random-coordinates": "^1.0.1",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1",
+    "supertest": "^4.0.2"
+  }
+}
